@@ -9,4 +9,8 @@ router.get('/perfil', (req, res) => {
     res.render('perfil');
 })
 
+router.get('/contacto', (req, res) => {
+    res.render('contacto');
+})
+
 module.exports = router;

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/image/favixd.ico" >
+    <link rel="stylesheet" href="/css/contacto.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="/image/image1.jpg" alt="" style="border-radius: 50%; width: 50px; height: 50px;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+        <a class="nav-link" href="/perfil">Perfil</a>
+        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link disabled" aria-disabled="true">x</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="ftco-section py-5">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-6 text-center">
+                <h2 class="fw-bold">Contáctame</h2>
+            </div>
+        </div>
+
+        <div class="row mb-5 g-4">
+            <div class="col-md-3">
+                <div class="dbox text-center">
+                    <div class="icon d-flex align-items-center justify-content-center mx-auto">
+                        <span class="fa fa-map-marker"></span>
+                    </div>
+                    <p><span>Dirección:</span> Alameda sur mz55 lt15</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dbox text-center">
+                    <div class="icon d-flex align-items-center justify-content-center mx-auto">
+                        <span class="fa fa-phone"></span>
+                    </div>
+                    <p><span>Celular:</span> <a href="tel:923942001" class="text-decoration-none text-dark">923942001</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dbox text-center">
+                    <div class="icon d-flex align-items-center justify-content-center mx-auto">
+                        <span class="fa fa-paper-plane"></span>
+                    </div>
+                    <p><span>Correo:</span> <a href="mailto:aquituariterry@gmail.com" class="text-decoration-none text-dark">aquituariterry@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dbox text-center">
+                    <div class="icon d-flex align-items-center justify-content-center mx-auto">
+                        <span class="fa fa-globe"></span>
+                    </div>
+                    <p><span>Website:</span> <a href="https://senati.com" class="text-decoration-none text-dark">senati.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="wrapper">
+                    <div class="row g-0">
+                        <div class="col-md-7">
+                            <div class="contact-wrap">
+                                <h3 class="mb-4">Escríbeme</h3>
+                                <div id="form-message-success" class="alert alert-success mb-4" style="display:none;">
+                                    ¡Tu mensaje fue enviado, gracias!
+                                </div>
+                                <form method="POST" id="contactForm" name="contactForm">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group mb-3">
+                                                <label class="form-label fw-bold small">Nombre Completo</label>
+                                                <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group mb-3">
+                                                <label class="form-label fw-bold small">Correo Electrónico</label>
+                                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group mb-3">
+                                                <label class="form-label fw-bold small">Asunto</label>
+                                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group mb-4">
+                                                <label class="form-label fw-bold small">Mensaje</label>
+                                                <textarea name="message" class="form-control" id="message" cols="30" rows="5" placeholder="Escribe aquí tu mensaje..."></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input type="submit" value="Enviar Mensaje" class="btn btn-primary px-4 py-2">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-none d-md-flex align-items-stretch">
+                            <div class="info-wrap w-100 bg-primary d-flex align-items-center justify-content-center text-white p-5" style="background-image: url('https://via.placeholder.com/600x800'); background-size: cover;">
+                                <img src="/image/codex.jpg" alt="Contacto" class="img-fluid mt-3" style="max-width: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
